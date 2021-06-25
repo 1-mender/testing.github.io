@@ -1,0 +1,129 @@
+body{
+  background: rgb(230, 230, 230);
+}
+.App {
+  background: #ebebeb;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.block{
+  font-family: Open Sans;
+  height: 528px;
+  width: 360px;
+  margin-top: 150px ;
+  margin-left: 150px;
+  background: white;
+  float: left;
+  border-radius:  16px;
+  -webkit-border-radius:  16px;
+  -moz-border-radius:  16px;
+  -ms-border-radius:  16px;
+  -o-border-radius:  16px;
+}
+.Info {
+  position: absolute;
+  margin-left: -70px;
+}
+.block-logo-text{
+  font-size: 24px;
+  margin-left: 20px ;
+}
+.block-mine{
+  color: #6E798C;
+  font-size: 16px;
+  margin-left: 20px ;
+}
+.Icons{
+  margin-left: 220px;
+  position: absolute;
+  margin-top: -40px;
+}
+.block-cal_1{
+  font-size: 16px;
+  color: #6E798C;
+  margin-top: 40px;
+  margin-left: 20px;
+  position: absolute;
+}
+.block-cal_2{
+  font-size: 16px;
+  color: #6E798C;
+  margin-top: 40px;
+  margin-left: 120px;
+  position: absolute;
+}
+.block-cal_3{
+  font-size: 16px;
+  color: #6E798C;
+  margin-top: 40px;
+  margin-left: 290px;
+  position: absolute;
+}
+.block-buy_text{
+  margin-top: 90px;
+  margin-left: 20px;
+  font-family: DM Serif Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  position: absolute;
+}
+.block-buy_red-text{
+  font-family: DM Serif Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #F8593B;
+  position: absolute;
+  margin-top: 99px;
+  margin-left: 110px;
+}
+.block-buy{
+  border-radius: 4px;
+  width :114px;
+  height: 44px;
+  font-size: 14px;
+  color: white;
+  background: #2ECC71;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  margin-left:  200px ;
+  margin-top: 90px;
+  outline: none;
+  border: 0px solid ;
+
+}
